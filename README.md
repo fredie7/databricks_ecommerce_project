@@ -1,4 +1,4 @@
-## E-Commerce Analytics Project Featuring Databricks Unity Catalog, Autoloader, Azure Datalake Storage, Delta Tables, Data Streaming, Slowly Changing Dimension & Pipeline Workflow.
+## E-Commerce Analytics Project Featuring Databricks Unity Catalog, Autoloader, Medallion Architectural Azure Datalake Storage, Delta Tables, Data Streaming, Slowly Changing Dimension & Pipeline Workflow.
 
 First, an Azure Resource Group is created and configured to include both the Data Lake Storage and the Azure Databricks workspace. Next, the datasets in Parquet format are loaded into the Azure Data Lake.
 
@@ -7,6 +7,16 @@ To ensure data governance, the project begins by creating a Unity Catalog metast
 For future automated data loading, Databricks Autoloader is implemented to incrementally load data files from Azure Data Lake Storage into the bronze layer.
 
 The layers:
+
+
+Here’s a pictorial representation of the medallion architectural datalake storage
+
+<div align="center">
+  <img src="https://github.com/fredie7/databricks_ecommerce_project/blob/main/Azure%20Datalake-1.png?raw=true" />
+  <br>
+   <sub><b>Fig 1.</b> Workflow</sub>
+</div>
+
 Here’s a running pipeline of the entire analytics process
 
 <div align="center">
