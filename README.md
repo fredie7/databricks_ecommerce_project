@@ -1,6 +1,6 @@
 ## E-Commerce Analytics Project Featuring Databricks Unity Catalog, Autoloader, Medallion Architectural Azure Datalake Storage, Delta Tables, Data Streaming, Slowly Changing Dimension & Pipeline Workflow.
 
-First, an Azure Resource Group is created and configured to include both the Data Lake Storage and the Azure Databricks workspace. Next, the datasets in Parquet format are loaded into the Azure Data Lake.
+First, an Azure Resource Group is created and configured to include both the Data Lake Storage and the Azure Databricks workspace. Next, the datasets are loaded into the Azure Data Lake.
 
 #### PROJECT ARCHITECTURE
 <div align="center">
