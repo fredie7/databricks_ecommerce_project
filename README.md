@@ -2,10 +2,16 @@
 
 First, an Azure Resource Group is created and configured to include both the Data Lake Storage and the Azure Databricks workspace. Next, the datasets in Parquet format are loaded into the Azure Data Lake.
 
+#### PROJECT ARCHITECTURE
+<div align="center">
+  <img src="https://github.com/fredie7/databricks_ecommerce_project/blob/main/images/Screenshot%20(5510).png?raw=true" />
+  <br>
+   <sub><b>Fig 1.</b> Workflow</sub>
+</div>
+
 To ensure data governance, the project begins by creating a Unity Catalog metastore, which enables data lineage tracking and auditing. After that, the Databricks workspace is assigned to the newly created metastore.
 
 Databricks Catlog:
-
 <div align="center">
   <img src="https://github.com/fredie7/databricks_ecommerce_project/blob/main/Catalog-1.png?raw=true" />
   <br>
