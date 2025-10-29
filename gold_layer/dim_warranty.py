@@ -36,9 +36,9 @@ dlt.create_streaming_table("dim_warranty")
 
 # Apply SCD Type-1
 dlt.apply_changes(
-    target="dim_warranty",
-    source="dim_warranty_view",
-    keys=["claim_id"],
-    sequence_by=col("claim_date"),
-    stored_as_scd_type=1,
+    target="dim_warranty", # Target table
+    source="dim_warranty_view", # Source data
+    keys=["claim_id"], # Unique key
+    sequence_by=col("claim_date"), # Track changes by date
+    stored_as_scd_type=1, # Apply upsert
 )
