@@ -1,4 +1,4 @@
-## E-Commerce Analytics Project Featuring Databricks Unity Catalog, Autoloader, Medallion Architectural Azure Datalake Storage, Delta Tables, Data Streaming, Slowly Changing Dimension & Pipeline Workflow.
+### A simulation od Apple's E-Commerce Analytics Project Featuring Databricks Unity Catalog, Autoloader, Medallion Architectural Azure Datalake Storage, Delta Tables, Data Streaming, Slowly Changing Dimension & Pipeline Workflow.
 
 First, an Azure Resource Group is created and configured to include both the Data Lake Storage and the Azure Databricks workspace. Next, the datasets are loaded into the Azure Data Lake.
 
